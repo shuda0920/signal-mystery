@@ -1,0 +1,8 @@
+{
+  "name": "signal-mystery",
+  "version": "0.1.0",
+  "private": true,
+  "description": "遊戲式學習：訊號疑雲 MVP",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "phaser": "4.2.1" }
+}
