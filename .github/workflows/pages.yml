@@ -22,7 +22,7 @@ jobs:
       - name: Prepare website
         run: |
           mkdir -p _site/vendor
-          cp index.html style.css app.js _site/
+          cp index.html style.css app.js telemetry.js telemetry-config.js _site/
           cp vendor/phaser.js _site/vendor/
       - uses: actions/upload-pages-artifact@v3
         with:
